@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InDanze</string>
+    <string name="prompt_password">Kata Laluan</string>
+    <string name="invalid_username">Bukan username yang betul</string>
+    <string name="invalid_password">Kata laluan mesti lebih 5 huruf</string>
+    <string name="login_failed">Login gagal</string>
+    <string name="welcome">Selamat datang</string>
+    <string name="new_to_indanze">Kali pertama?</string>
+    <string name="sign_in">Log Masuk</string>
+    <string name="password">Kata Laluan</string>
+    <string name="sign_up">Daftar sekarang</string>
+    <string name="email_address">Alamat Emel</string>
+    <string name="forgot_password">Lupa kata laluan</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="email_address_sign_up">Alamat Emel</string>
+    <string name="password_sign_up">Kata Laluan</string>
+    <string name="sign_up_sign_up">Daftar</string>
+    <string name="already_a_member">Ada akaun?</string>
+    <string name="sign_in_Signup">Log mask</string>
+    <string name="title_fragment_event">Acara</string>
+    <string name="title_fragment_profile">Profil</string>
+    <string name="title_fragment_video">Video</string>
+    <string name="search">Cari</string>
+    <string name="video">Video</string>
+    <string name="event">Acara</string>
+    <string name="profile">Profil</string>
+    <string name="upload_video">Muat naik video</string>
+    <string name="create_event">Anjuran acara</string>
+    <string name="email_address_forgotPassword">Alamat Emel</string>
+    <string name="reset_password">Reset Kata Laluan</string>
+    <string name="name">Nama pengguna:</string>
+    <string name="email_address_fragment_profile">Alamant Emel:</string>
+    <string name="my_video">Video saya</string>
+    <string name="my_event">Acara saya</string>
+    <string name="logout">Log Keluar</string>
+    <string name="my_video_userVideo">Video saya</string>
+    <string name="my_event_userEvent">Acara saya</string>
+    <string name="delete_event">Padam</string>
+    <string name="delete_video">Padam</string>
+    <string name="pick_video">Pilih video</string>
+    <string name="upload_video_addVideo">Muat naik</string>
+    <string name="create_event_addEvent">Anjur acara</string>
+</resources>

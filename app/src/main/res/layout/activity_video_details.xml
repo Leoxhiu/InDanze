@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:id="@+id/updateEvent_scrollView"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.VideoDetailsActivity">
+
+        <com.google.android.exoplayer2.ui.StyledPlayerView
+            android:id="@+id/videoDetailPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/black"
+            app:resize_mode="fit"
+            android:layout_gravity="center"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/txt_videoDetailName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/dm_sans_bold"
+                android:text="Video Detail Name"
+                android:textAlignment="center"
+                android:textColor="#333333"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/dm_sans_medium"
+                android:text="Description:"
+                android:textAlignment="viewStart"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_videoDetailName" />
+
+            <TextView
+                android:id="@+id/txt_videoDetailDescription"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/dm_sans"
+                android:text="Video Detail Description"
+                android:textAlignment="viewStart"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

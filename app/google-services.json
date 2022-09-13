@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "890363137171",
+    "firebase_url": "https://indanze-e3a7d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "indanze-e3a7d",
+    "storage_bucket": "indanze-e3a7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890363137171:android:aac46032cd1b378cf05166",
+        "android_client_info": {
+          "package_name": "com.example.indanze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890363137171-8dt58nb7ji9fuhhusr99prlfastjmr46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.indanze",
+            "certificate_hash": "d4b960acb5538e7c0081c5163e36b675659696b7"
+          }
+        },
+        {
+          "client_id": "890363137171-u04pov2s4jkkhl1sgm0dj24nefc3kikg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtI7FICnD00mU1AxCrlr2BlcUrslHOSpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890363137171-u04pov2s4jkkhl1sgm0dj24nefc3kikg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

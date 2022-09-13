@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/videoImage"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@drawable/ic_video_library"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/videoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/videoImage"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/dm_sans_bold"
+            android:text="Video Name"
+            android:textAlignment="center"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

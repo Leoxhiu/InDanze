@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigationVideo"
+        android:icon="@drawable/video_icon"
+        android:title="@string/video"
+        />
+
+    <item
+        android:id="@+id/navigationEvent"
+        android:icon="@drawable/event_icon"
+        android:title="@string/event"
+        />
+
+    <item
+        android:id="@+id/navigationProfile"
+        android:icon="@drawable/person_icon"
+        android:title="@string/profile"
+        />
+
+</menu>
